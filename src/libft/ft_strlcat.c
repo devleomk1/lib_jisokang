@@ -6,11 +6,11 @@
 /*   By: jisokang <jisokang@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/29 05:31:29 by jisokang          #+#    #+#             */
-/*   Updated: 2021/03/17 16:19:01 by jisokang         ###   ########.fr       */
+/*   Updated: 2021/06/23 19:29:41 by jisokang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../include/libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {

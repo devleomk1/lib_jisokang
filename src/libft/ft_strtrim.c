@@ -6,11 +6,11 @@
 /*   By: jisokang <jisokang@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/08 14:09:23 by jisokang          #+#    #+#             */
-/*   Updated: 2021/02/20 19:56:47 by jisokang         ###   ########.fr       */
+/*   Updated: 2021/06/23 19:29:41 by jisokang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../include/libft.h"
 
 size_t	ft_getstart(char const *s1, char const *set)
 {

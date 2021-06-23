@@ -6,11 +6,11 @@
 /*   By: jisokang <jisokang@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/29 01:42:44 by jisokang          #+#    #+#             */
-/*   Updated: 2021/02/20 19:50:30 by jisokang         ###   ########.fr       */
+/*   Updated: 2021/06/23 19:29:41 by jisokang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../include/libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {

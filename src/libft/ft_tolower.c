@@ -6,11 +6,11 @@
 /*   By: jisokang <jisokang@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/22 23:13:35 by jisokang          #+#    #+#             */
-/*   Updated: 2021/02/20 19:56:59 by jisokang         ###   ########.fr       */
+/*   Updated: 2021/06/23 19:29:41 by jisokang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../include/libft.h"
 
 int	ft_tolower(int c)
 {
