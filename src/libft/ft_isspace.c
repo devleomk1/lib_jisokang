@@ -1,28 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strncmp.c                                       :+:      :+:    :+:   */
+/*   ft_isspace.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jisokang <jisokang@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/02 03:40:37 by jisokang          #+#    #+#             */
-/*   Updated: 2021/12/24 15:02:57 by jisokang         ###   ########.fr       */
+/*   Created: 2021/12/02 23:10:27 by jisokang          #+#    #+#             */
+/*   Updated: 2021/12/24 15:03:44 by jisokang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../include/libft.h"
 
-int	ft_strncmp(const char *s1, const char *s2, size_t n)
+/**
+ * @brief white-space character test
+ *
+ * @param c
+ * @return int TRUE / FALSE
+ */
+int	ft_isspace(int c)
 {
-	while (n > 0 && (*s1 != '\0' && *s2 != '\0'))
-	{
-		if (*s1 != *s2)
-			break ;
-		s1++;
-		s2++;
-		n--;
-	}
-	if (n == 0)
-		return (0);
-	return (*(unsigned char *)s1 - *(unsigned char *)s2);
+	if (c == '\t' || c == '\n' || c == '\v'
+		|| c == '\f' || c == '\r' || c == ' ')
+		return (1);
+	return (0);
 }
