@@ -6,7 +6,7 @@
 /*   By: jisokang <jisokang@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/09 20:24:43 by jisokang          #+#    #+#             */
-/*   Updated: 2021/07/17 00:02:50 by jisokang         ###   ########.fr       */
+/*   Updated: 2022/01/18 22:01:49 by jisokang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@
 # endif
 
 int		get_next_line(int fd, char **line);
-char	*ft_strjoin(char *s1, char const *s2);
+// char	*ft_strjoin(char *s1, char const *s2);
 char	*ft_strdup(const char *s1);
 size_t	ft_strlen(const char *s);
 size_t	t_strlcpy(char *dst, const char *src, size_t dstsize);
