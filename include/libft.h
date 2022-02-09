@@ -6,7 +6,7 @@
 /*   By: jisokang <jisokang@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/27 07:05:12 by jisokang          #+#    #+#             */
-/*   Updated: 2022/01/15 23:54:10 by jisokang         ###   ########.fr       */
+/*   Updated: 2022/02/09 20:29:50 by jisokang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,7 @@ int					ft_isalnum(int c);
 int					ft_isascii(int c);
 int					ft_isspace(int c);
 int					ft_isprint(int c);
+int					ft_isnum_str(char *str);
 int					ft_toupper(int c);
 int					ft_tolower(int c);
 size_t				ft_strlen(const char *s);

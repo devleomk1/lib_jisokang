@@ -6,7 +6,7 @@
 /*   By: jisokang <jisokang@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/09 20:24:43 by jisokang          #+#    #+#             */
-/*   Updated: 2022/01/18 22:01:49 by jisokang         ###   ########.fr       */
+/*   Updated: 2022/02/09 20:32:38 by jisokang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include <fcntl.h>
+
+# include "libft.h"
 
 # ifndef OPEN_MAX
 #  define OPEN_MAX 32
@@ -27,9 +29,9 @@
 
 int		get_next_line(int fd, char **line);
 // char	*ft_strjoin(char *s1, char const *s2);
-char	*ft_strdup(const char *s1);
-size_t	ft_strlen(const char *s);
-size_t	t_strlcpy(char *dst, const char *src, size_t dstsize);
-size_t	ft_strlcat(char *dest, const char *src, size_t dstsize);
+// char	*ft_strdup(const char *s1);
+// size_t	ft_strlen(const char *s);
+// size_t	t_strlcpy(char *dst, const char *src, size_t dstsize);
+// size_t	ft_strlcat(char *dest, const char *src, size_t dstsize);
 
 #endif
